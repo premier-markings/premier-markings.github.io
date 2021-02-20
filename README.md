@@ -4,9 +4,12 @@ In your terminal run
 
 `yarn install`
 
-To develop the site run
+To develop the site
 
+Run this command as a prebuild step, it converts sass to css.
 `yarn gulp`
+
+Then run
 `yarn dev`
 
 To build the production version of the site run 
