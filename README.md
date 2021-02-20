@@ -1,11 +1,20 @@
 runs with node version 8.0
 
-`yarn gulp yarn dev`
+In your terminal run
 
-node-sass throws errors. NVM to node 8, delete node_modules
+`yarn install`
 
-This mental setup has the live site at
+To develop the site run
 
-`premier-markings/premier-markings.github.io`
+`yarn gulp`
+`yarn dev`
 
-Copy across relivant files
+To build the production version of the site run 
+
+`yarn build`
+
+To deploy the site
+
+`node publish`
+
+if node-sass throws errors. Change to node version 8, delete your node_modules and run `yarn install`
