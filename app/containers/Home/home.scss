@@ -1,0 +1,59 @@
+.landing-img {
+  height: 500px;
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #000;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  h1 {
+    font-size: 40px;
+  }
+
+  * {
+    max-width: 900px;
+  }
+}
+
+.landing-img__1 {
+  background: url('/assets/imgs/screed_5-min.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing-img__2 {
+  background: url('/assets/imgs/car_parks_4-min.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing-img__3 {
+  background: url('/assets/imgs/high_friction_surfacing_3-min.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing-img__4 {
+  background: url('/assets/imgs/screed_3-min.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*,
+h1,
+h2 {
+  margin: 0;
+}
