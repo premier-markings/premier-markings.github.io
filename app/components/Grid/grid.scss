@@ -1,0 +1,91 @@
+.grid-container {
+  padding: 0 50px;
+  text-align: center;
+
+  .text-container {
+    margin: 50px;
+
+    h2 {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #999;
+  border-radius: 1px;
+  background-size: cover;
+  margin: 10px;
+  margin-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px #000;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.box-1 {
+  background-image: url('/assets/imgs/screed_3-min.jpg');
+}
+
+.box-2 {
+  background-image: url('/assets/imgs/high_friction_surfacing_3-min.jpg');
+}
+
+.box-3 {
+  background-image: url('/assets/imgs/temp.jpg');
+}
+
+.box-4 {
+  background-image: url('/assets/imgs/road_studs-min.jpg');
+}
+
+.box-5 {
+  background-image: url('/assets/imgs/line_removal-min.jpg');
+}
+
+.box-6 {
+  background-image: url('/assets/imgs/car_park_3-min.jpg');
+}
+
+.box-7 {
+  background-image: url('/assets/imgs/parks_and_recreation_2-min.jpg');
+}
+
+.box-8 {
+  background-image: url('/assets/imgs/screed_5-min.jpg');
+}
+
+.box-9 {
+  background-image: url('/assets/imgs/depots_factory_markings_2-min.jpg');
+}
+
+.box-10 {
+  background-image: url('/assets/imgs/pre_formed-min.jpg');
+}
+
+.box-11 {
+  background-image: url('/assets/imgs/website joint sealing and overbanding 1-min.jpg');
+}
+
+.box-12 {
+  background-image: url('/assets/imgs/website specialist vehicles 2-min.jpg');
+}

@@ -1,0 +1,99 @@
+.button-modal {
+  position: absolute;
+  right: 20px;
+  display: inline-block;
+  /* [1] */
+}
+
+.modal {
+  padding: 2vh;
+
+  &-container {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    overflow: scroll;
+    height: 96vh;
+
+    h2,
+    ul,
+    p {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 2px;
+      list-style-type: none;
+    }
+  }
+
+  &-button {
+    position: absolute;
+    right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.modal__carousel {
+  overflow: scroll;
+
+  img {
+    height: 60vh !important;
+    width: auto;
+    margin: auto;
+    object-fit: cover;
+  }
+
+  .slider-slide,
+  .slider-list {
+    overflow: scroll;
+
+    img {
+      height: 60vh !important;
+      width: auto;
+      margin: auto;
+      object-fit: cover;
+    }
+  }
+
+  .slider-list {
+    display: flex !important;
+  }
+}
+
+@media(max-width: 500px) {
+  .modal {
+    &-container {
+      h2 {
+        margin-top: 60px;
+      }
+    }
+  }
+
+  .modal__carousel {
+    img {
+      height: 40vh !important;
+    }
+
+    .slider-slide,
+    .slider-list {
+      img {
+        height: 40vh !important;
+      }
+    }
+
+    .slider-list {
+      display: flex !important;
+    }
+  }
+}

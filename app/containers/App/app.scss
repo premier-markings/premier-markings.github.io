@@ -1,0 +1,17 @@
+* {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.has-modal {
+  overflow: hidden;
+}
+
+.flat-link {
+  text-decoration: none;
+  color: #ffe600;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
